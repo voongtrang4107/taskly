@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Task.ly là landing page đơn giản giới thiệu ứng dụng quản lý công việc.">
+  <meta name="keywords" content="Task.ly, quản lý công việc, task management">
+  <meta name="author" content="Task.ly">
+  <title>Task.ly - Quản lý công việc</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" aria-label="Menu chính">
+      <a class="logo" href="#home">Task.ly</a>
+
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="btn" href="#contact">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Efficient Task Management Strategies.</h1>
+      <p>Boosting productivity and achieving goals.</p>
+
+      <div class="actions">
+        <a class="btn" href="#features">Learn More</a>
+        <a class="btn btn-light" href="#contact">Get Started</a>
+      </div>
+    </section>
+
+    <section class="preview">
+      <article class="task-demo" aria-label="Demo task board">
+        <div class="task done"><span></span>Done <strong>+</strong></div>
+        <div class="task review"><span></span>Need Review <strong>+</strong></div>
+        <div class="task doing"><span></span>In Progress <strong>+</strong></div>
+        <div class="task new"><span></span>New request <strong>+</strong></div>
+
+        <h2>Create Task</h2>
+        <p>You can create new tasks with title, deadline and priority.</p>
+      </article>
+
+      <article class="dash-demo" aria-label="Demo dashboard Task.ly">
+        <aside class="dash-side">
+          <h2>Task.ly</h2>
+          <span></span>
+          <span></span>
+          <span></span>
+        </aside>
+
+        <div class="dash-main">
+          <div class="dash-top">
+            <p>Thursday, 18 May 2023</p>
+            <button type="button">Share</button>
+          </div>
+
+          <div class="board">
+            <div>
+              <h3>New request</h3>
+              <p>Hero section</p>
+            </div>
+            <div>
+              <h3>In Progress</h3>
+              <p>About section</p>
+            </div>
+            <div>
+              <h3>Need Review</h3>
+              <p>Discover</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <p class="about-title">About Task.ly</p>
+        <a class="btn" href="#features">Learn More</a>
+      </div>
+
+      <h2>Effective solutions to manage your tasks more efficiently and effectively. Task.ly helps you organize, track and complete tasks with ease.</h2>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Main Features</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Create Task</h3>
+          <p>Tạo công việc với tiêu đề, mô tả ngắn và deadline.</p>
+        </article>
+
+        <article class="card">
+          <h3>Set Priority</h3>
+          <p>Gắn mức độ ưu tiên để biết việc nào quan trọng hơn.</p>
+        </article>
+
+        <article class="card">
+          <h3>Track Progress</h3>
+          <p>Theo dõi task theo các trạng thái như todo, doing, done.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="plans">
+      <h2>Plan Table</h2>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Bảng so sánh gói Task.ly</caption>
+          <thead>
+            <tr>
+              <th scope="col">Nội dung</th>
+              <th scope="col">Free</th>
+              <th scope="col">Team</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Projects</th>
+              <td>3</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th scope="row">Members</th>
+              <td>1</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row">Reports</th>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <h2>Get early access</h2>
+        <p>Điền thông tin để nhận thông báo khi Task.ly ra mắt.</p>
+      </div>
+
+      <form action="#" method="post">
+        <label for="name">Họ tên</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="team">Team size</label>
+        <select id="team" name="team">
+          <option>1 người</option>
+          <option>2-5 người</option>
+          <option>6-10 người</option>
+        </select>
+
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Task.ly</strong> - Landing page practice</p>
+  </footer>
+</body>
+</html>
