@@ -381,7 +381,6 @@ select:focus {
     justify-content: space-between;
     gap: 30px;
     padding-top: 25px;
-    border-bottom: 1px solid var(--color-white);
 }
 
 .footer-top h2 {
@@ -419,6 +418,7 @@ select:focus {
 .footer hr {
     margin: 45px 0;
     border: none;
+    border-top: 1px solid var(--color-white);
 }
 
 .footer-content {
@@ -497,8 +497,12 @@ select:focus {
     .footer-top {
         flex-wrap: wrap;
     }
+    .footer-top h2 {
+        font-size: 42px;
+    }
     .download-buttons {
         margin-right: 0;
+        margin-bottom: 24px;
     }
 }
 
@@ -528,6 +532,9 @@ select:focus {
     }
     h1 {
         font-size: 34px;
+    }
+    .footer-top h2 {
+        font-size: 32px;
     }
     .footer-brand p {
         font-size: 14px;
